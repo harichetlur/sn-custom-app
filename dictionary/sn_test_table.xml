@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="test Table" max_length="40" name="sn_test_table" type="collection">
+        <element choice="1" label="my choice" max_length="40" name="my_choice" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="test" language="fr" value="test"/>
+                <element inactive_on_update="false" label="test" value="test"/>
+            </choice>
+        </element>
+    </element>
+</database>
